@@ -1,0 +1,7 @@
+0.  a word invented by the president of the National Puzzlers' League for the disease known as silicosis.
+1.  returns resource usage measures
+2.  16
+3.  Because we will always have the latest variable data
+4.  It reachs each character in the file, that is not the end of thefile and is only alphabetical characters and apostrophes, it appends the character to the end of the array as long as the word is not too long. If the word meets the criteria, the counter is adjusted and the word is checked for spelling.
+5.  fscanf does not work well formatting issues. The word would have to be 100% correct.
+6.  These pointers cannot change the values that they are pointing to. This is useful for functions like load and check whose job is not to change the elements in the WORD array, but only to read them. Other pointers, however, can change the value of the chars stored in the WORD array, allowing MAIN to pass a new string to the CHECK function, while taking extra steps to ensure that CHECK does not modify it.he parameters for check and load are constants because we mustn't change the values standing behind them.
